@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left background image */
+.left-side {
+  flex: 1.5;
+  background: url("Screenshot 2025-08-07 222347.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* Right form section */
+.right-side {
+  flex: 1;
+  background-color: #fff;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+form h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+form h3 {
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-utility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.form-utility a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-btn {
+  background-color: #e60000;
+  color: white;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #cc0000;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}

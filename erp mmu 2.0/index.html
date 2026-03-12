@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | MM(DU) MULLANA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <!Left side background image>
+    <div class="left-side"></div>
+
+    <! Right side login form -->
+    <div class="right-side">
+      <img src="Screenshot 2025-08-05 230806.png" alt="Maharishi Markandeshwar University Logo" class="logo">
+
+      <form action="/login" method="post">
+        <h1>Welcome Back</h1>
+        <h3>Log into your account</h3>
+
+        <div class="form-group">
+          <select name="role" required>
+            <option value="">Select role</option>
+            <option value="Admin">Admin</option>
+            <option value="Teacher">Teacher</option>
+            <option value="students">Students</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <label for="pin">Password</label>
+          <input type="password" name="pin" id="pin" maxlength="8" placeholder="Password">
+        </div>
+
+        <div class="form-utility">
+          <label><input type="checkbox" name="rememberme" id="rememberme"> Remember me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <input type="submit" value="Login" class="login-btn">
+
+        <p class="footer">2025 © ERP 4.0 - By <strong>MM(DU) MULLANA</strong></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
